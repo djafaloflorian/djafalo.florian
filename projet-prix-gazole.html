@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Projet — Prix du gazole dans le Rhône | Joseph Cabinta</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="topbar">
+    <a href="index.html" class="back">← Retour au portfolio</a>
+  </nav>
+
+  <header class="project-hero">
+    <div class="container">
+      <h1>Analyse des prix du gazole dans le Rhône</h1>
+      <p class="subtitle">
+        Pipeline data complet (Sheets → BigQuery → SQL → Looker Studio) pour analyser la distribution des prix
+        et identifier les zones les plus avantageuses autour de Lyon.
+      </p>
+
+      <div class="badges">
+        <span class="badge">Google Sheets</span>
+        <span class="badge">BigQuery</span>
+        <span class="badge">SQL</span>
+        <span class="badge">Looker Studio</span>
+      </div>
+
+      <div class="cta-row">
+        <a class="btn primary" href="METTRE_ICI_LIEN_DASHBOARD" target="_blank" rel="noopener">
+          Voir le dashboard
+        </a>
+        <a class="btn" href="https://github.com/djafloflorian/djaflo.florian/tree/main/prix-gazole-rhone" target="_blank" rel="noopener">
+          Voir le repo GitHub
+        </a>
+        <a class="btn" href="METTRE_ICI_LIEN_SHEETS" target="_blank" rel="noopener">
+          Voir le dataset (Sheets)
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="section">
+      <h2>🎯 Objectif</h2>
+      <p>
+        Analyser la distribution des prix du gazole dans le département du Rhône afin d’identifier les zones
+        géographiques les plus avantageuses autour de Lyon et d’évaluer l’impact de la distance sur les prix.
+      </p>
+    </section>
+
+    <section class="section grid-2">
+      <div class="card">
+        <h2>🗂️ Données</h2>
+        <ul>
+          <li><b>Source</b> : données publiques des stations-service</li>
+          <li><b>Périmètre</b> : département du Rhône</li>
+          <li><b>Volume</b> : 194 stations</li>
+          <li><b>Variables</b> : prix gazole, adresse/ville, coordonnées, distance au centre de Lyon</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>⚙️ Méthodologie</h2>
+        <ol>
+          <li>Préparation et centralisation dans <b>Google Sheets</b></li>
+          <li>Nettoyage, calculs de distance et agrégations via <b>SQL (BigQuery)</b></li>
+          <li>Création d’un dashboard interactif sur <b>Looker Studio</b></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>📊 Résultats & insights clés</h2>
+      <div class="card">
+        <ul>
+          <li>La majorité des stations affiche un prix compris entre <b>X €</b> et <b>Y €</b>.</li>
+          <li>Les stations les moins chères sont majoritairement situées à plus de <b>X km</b> du centre de Lyon.</li>
+          <li>Certaines zones présentent un écart de prix significatif par rapport à la moyenne départementale.</li>
+        </ul>
+        <p class="note">
+          (Remplace les valeurs <b>X</b> par tes chiffres réels quand tu veux.)
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>💡 Recommandations</h2>
+      <div class="card">
+        <ul>
+          <li>Privilégier les stations situées au-delà de <b>X km</b> pour réduire le coût du carburant.</li>
+          <li>Utiliser la localisation comme critère d’optimisation des dépenses.</li>
+          <li>Mettre en place un suivi régulier pour détecter les évolutions de prix par zone.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>🔗 Liens</h2>
+      <div class="card links">
+        <a href="METTRE_ICI_LIEN_DASHBOARD" target="_blank" rel="noopener">📊 Dashboard Looker Studio</a>
+        <a href="https://github.com/djafloflorian/djaflo.florian/tree/main/prix-gazole-rhone" target="_blank" rel="noopener">🧠 Repo GitHub (SQL & documentation)</a>
+        <a href="METTRE_ICI_LIEN_SHEETS" target="_blank" rel="noopener">📁 Dataset Google Sheets</a>
+        <a href="METTRE_ICI_LIEN_PDF" target="_blank" rel="noopener">🧾 Présentation synthétique (PDF)</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Joseph Cabinta — Portfolio Data Analyst</p>
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
