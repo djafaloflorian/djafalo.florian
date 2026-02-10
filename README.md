@@ -1,79 +1,64 @@
-# djafalo.florian
-Portfolio Data Analyst
+# 👋 Bonjour, je suis Joseph Cabinta
 
-# Analyse des prix du gazole dans le Rhône
+🎯 **Data Analyst Junior** orienté analyse décisionnelle, avec une forte appétence pour la visualisation de données, le SQL et la transformation de données brutes en insights exploitables.
 
-## 🎯 Objectif du projet
-L’objectif de ce projet est d’analyser la distribution des prix du gazole dans le département du Rhône afin d’identifier les zones géographiques les plus avantageuses autour de Lyon et d’évaluer l’impact de la distance sur les prix pratiqués par les stations-service.
-
-Ce projet s’inscrit dans une démarche orientée **business et aide à la décision**, en simulant un cas d’usage réel pour un automobiliste ou un acteur du transport.
-
----
-
-## 🗂️ Données
-- **Source** : données publiques des stations-service
-- **Périmètre** : département du Rhône
-- **Volume** : 194 stations
-- **Variables principales** :
-  - Prix du gazole
-  - Adresse et ville
-  - Coordonnées géographiques
-  - Distance par rapport au centre de Lyon
-
-Les données ont été centralisées et préparées dans Google Sheets avant d’être exploitées dans BigQuery.
-
----
-
-## ⚙️ Méthodologie
-Le projet repose sur un pipeline data simple et proche d’un contexte professionnel :
-
-1. **Collecte & préparation**
-   - Import et nettoyage initial des données dans Google Sheets
-
-2. **Traitement & analyse**
-   - Nettoyage des données via SQL
-   - Calcul des distances géographiques
-   - Agrégations et analyses dans **BigQuery**
-
-3. **Visualisation**
-   - Création d’un dashboard interactif avec **Looker Studio**
-   - Mise en place de filtres (prix, distance, localisation)
-
----
-
-## 📊 Résultats & insights clés
-- La majorité des stations présente un prix du gazole compris entre **X € et Y €**
-- Les stations les moins chères sont majoritairement situées à plus de **X km** du centre de Lyon
-- Certaines zones géographiques affichent un écart de prix significatif par rapport à la moyenne départementale
-
-Ces résultats mettent en évidence une relation entre **localisation géographique** et **niveau de prix**.
-
----
-
-## 💡 Recommandations
-- Privilégier les stations situées en périphérie pour réduire le coût du carburant
-- Intégrer la distance comme critère de décision lors du choix d’une station
-- Mettre en place un suivi régulier pour détecter les évolutions de prix par zone
+Je construis des projets data de bout en bout, de la préparation des données à la visualisation, en simulant des cas d’usage proches du contexte professionnel.
 
 ---
 
 ## 🛠️ Outils & technologies
-- **Google Sheets** – préparation des données  
-- **BigQuery** – stockage et traitement  
-- **SQL** – nettoyage, calculs et analyses  
-- **Looker Studio** – visualisation et dashboard interactif  
+
+### 📊 Analyse & traitement
+- SQL (BigQuery)
+- Google Sheets
+- Excel
+
+### 📈 Data Visualisation
+- Looker Studio
+- Tableaux de bord interactifs
+
+### ⚙️ Environnement & workflow
+- Git & GitHub
+- Documentation de projets
+- Structuration de pipelines data
 
 ---
 
-## 🔗 Liens
-- 📊 Dashboard Looker Studio : (https://lookerstudio.google.com/reporting/e14c56da-439a-449f-829a-4e78e52820a3)
-- 📁 Dataset Google Sheets (lecture seule) : *[lien à ajouter]*  
-- 🧾 Portfolio PDF (présentation synthétique du projet) : *[lien à ajouter]*  
+## 📁 Projets
+
+### 🔹 Analyse des prix du gazole dans le Rhône
+> Analyse géographique et tarifaire visant à identifier les zones les plus avantageuses autour de Lyon.
+
+🧠 **Ce que montre ce projet**  
+- Construction d’un pipeline data (Sheets → BigQuery → SQL → Looker Studio)  
+- Analyse de données réelles et géographiques  
+- Production d’insights et de recommandations business  
+
+🔗 **Accéder au projet**  
+- 📊 Dashboard Looker Studio  
+- 🧾 Présentation synthétique (PDF)  
+- 🧠 Analyse complète & SQL (GitHub)
+
+👉 [Voir le projet en détail](https://github.com/TON_USERNAME/prix-gazole-rhone)
 
 ---
 
-## 📌 À propos
-Ce projet a été réalisé dans une démarche de montée en compétences en **analyse de données**, avec un focus sur :
-- la structuration d’un pipeline data
-- l’analyse orientée décision
-- la communication claire des résultats
+### 🔹 (Projet à venir)
+> Analyse de données orientée business (ventes, churn ou pricing).
+
+⏳ En cours de construction.
+
+---
+
+## 📌 À propos de moi
+Issu d’un parcours en **sciences computationnelles**, je souhaite évoluer vers un poste de **Data Analyst junior** où je pourrai contribuer à l’analyse de données, à la création de tableaux de bord et à l’aide à la prise de décision.
+
+Je m’attache à produire des analyses claires, documentées et orientées métier.
+
+---
+
+## 📬 Contact & liens
+- 💼 LinkedIn : *[lien à ajouter]*  
+- 🌐 Portfolio : *[lien à ajouter]*  
+- 📄 CV (PDF) : *[lien à ajouter]*  
+- 📧 Email : *[lien à ajouter]*  
