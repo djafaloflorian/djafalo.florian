@@ -1,4 +1,4 @@
-# 👋 Bonjour, je suis Joseph Cabinta
+# 👋 Bonjour, je suis Florian Djafalo
 
 🎯 **Data Analyst Junior** orienté analyse décisionnelle, avec une forte appétence pour la visualisation de données, le SQL et la transformation de données brutes en insights exploitables.
 
