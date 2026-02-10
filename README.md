@@ -66,7 +66,7 @@ Ces résultats mettent en évidence une relation entre **localisation géographi
 ---
 
 ## 🔗 Liens
-- 📊 Dashboard Looker Studio : *[lien à ajouter]*  
+- 📊 Dashboard Looker Studio : (https://lookerstudio.google.com/reporting/e14c56da-439a-449f-829a-4e78e52820a3)
 - 📁 Dataset Google Sheets (lecture seule) : *[lien à ajouter]*  
 - 🧾 Portfolio PDF (présentation synthétique du projet) : *[lien à ajouter]*  
 
